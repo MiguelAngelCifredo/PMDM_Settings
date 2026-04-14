@@ -5,6 +5,7 @@
     <PreferenceCategory android:title="@string/grp_relax">
 
         <ListPreference
+            android:defaultValue="@string/def_relax_descansar"
             android:dialogTitle="@string/dgt_relax_descansar"
             android:entries="@array/ent_relax_descansar"
             android:entryValues="@array/val_relax_descansar"
@@ -24,12 +25,13 @@
     <PreferenceCategory android:title="@string/grp_pantalla">
 
         <ListPreference
+            android:defaultValue="@string/def_pantalla_apagar"
             android:dialogTitle="@string/dgt_pantalla_apagar"
             android:entries="@array/ent_pantalla_apagar"
             android:entryValues="@array/val_pantalla_apagar"
             android:key="@string/key_pantalla_apagar"
             android:summary="@string/sum_pantalla_apagar"
-            android:title="@string/tit_relax_descansar" />
+            android:title="@string/tit_pantalla_apagar" />
 
         <SeekBarPreference
             android:defaultValue="@integer/def_pantalla_tamanioFuente"
@@ -48,9 +50,8 @@
 
     <PreferenceCategory android:title="@string/grp_conn">
 
-        <ListPreference
+        <MultiSelectListPreference
             android:defaultValue="@array/empty_array"
-            android:dialogTitle="@string/dgt_conn_limitarDatos"
             android:entries="@array/ent_conn_limitarDatos"
             android:entryValues="@array/val_conn_limitarDatos"
             android:key="@string/key_conn_limitarDatos"
@@ -67,13 +68,13 @@
             android:title="@string/tit_conn_descargarVideo" />
 
         <SwitchPreference
-            android:defaultValue="false"
+            android:defaultValue="true"
             android:key="@string/key_conn_modoRestrictivo"
             android:summary="@string/sum_conn_modoRestrictivo"
             android:title="@string/tit_conn_modoRestrictivo" />
 
         <SwitchPreference
-            android:defaultValue="false"
+            android:defaultValue="true"
             android:key="@string/key_conn_estadisticasUso"
             android:title="@string/tit_conn_estadisticasUso" />
 

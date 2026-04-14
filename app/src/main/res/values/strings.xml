@@ -20,16 +20,18 @@
     <string name="tit_relax_descansar">Descansar</string>
     <string name="sum_relax_descansar">Frecuencia de recordatorio</string>
     <string name="dgt_relax_descansar">Recordar tomar un descanso</string>
+    <string name="def_relax_descansar">1</string>
 
     <string name="key_relax_nombreAlarma">key_relax_nombreAlarma</string>
     <string name="def_relax_nombreAlarma">Descanso</string>
     <string name="tit_relax_nombreAlarma">Nombre alarma</string>
-    <string name="sum_relax_nombreAlarma">Nombre recordatorio alarma</string>
+    <string name="sum_relax_nombreAlarma">Nombre recordatorio de la alarma</string>
 
     <string name="key_pantalla_apagar">key_pantalla_apagar</string>
     <string name="tit_pantalla_apagar">Apagar pantalla</string>
     <string name="sum_pantalla_apagar">Minutos para apagar la pantalla</string>
     <string name="dgt_pantalla_apagar">Apagar pantalla</string>
+    <string name="def_pantalla_apagar">0</string>
 
     <string name="key_pantalla_tamanioFuente">key_pantalla_tamanioFuente</string>
     <string name="tit_pantalla_tamanioFuente">Tamaño fuente</string>
@@ -39,8 +41,8 @@
     <string name="tit_pantalla_modoObscuro">Establecer modo obscuro</string>
 
     <string name="key_conn_limitarDatos">key_conn_limitarDatos</string>
-    <string name="tit_conn_limitarDatos">Limitar el uso de datos móviles</string>
-    <string name="sum_conn_limitarDatos">Envío de vídeo HD sobre Wi-Fi</string>
+    <string name="tit_conn_limitarDatos">Tipo de contenido a restringir</string>
+    <string name="sum_conn_limitarDatos">Elementos que se dejarán de cargar</string>
     <string name="dgt_conn_limitarDatos">Uso datos móviles</string>
 
     <string name="key_conn_descargarVideo">key_conn_descargarVideo</string>
@@ -50,7 +52,7 @@
 
     <string name="key_conn_modoRestrictivo">key_conn_modoRestrictivo</string>
     <string name="tit_conn_modoRestrictivo">Modo restrictivo</string>
-    <string name="sum_conn_modoRestrictivo">El modo restrictivo puede ayudarte a ocultar vídeos con contenido potencialmente para adultos. el filtro con es 100% preciso, pero puede ayudar a evitar la mayoría.</string>
+    <string name="sum_conn_modoRestrictivo">El modo restrictivo puede ayudarte a ocultar vídeos con contenido potencialmente para adultos. El filtro no es 100% preciso, pero puede ayudar a evitar la mayoría.</string>
 
     <string name="key_conn_estadisticasUso">key_conn_estadisticasUso</string>
     <string name="tit_conn_estadisticasUso">Habilitar estadísticas de uso</string>
@@ -61,9 +63,9 @@
     <string name="val_ON">Activado</string>
     <string name="val_NULL">No definido</string>
 
-    <string name="val1_conn_limitarDatos">Sólo con Wi-Fi</string>
-    <string name="val2_conn_limitarDatos">Sólo en red de datos</string>
-    <string name="val3_conn_limitarDatos">En cualquier red</string>
+    <string name="val1_conn_limitarDatos">Imágenes en HD</string>
+    <string name="val2_conn_limitarDatos">Autoreproducción de vídeos</string>
+    <string name="val3_conn_limitarDatos">Actualizaciones en segundo plano</string>
 
     <string name="val_min"> min</string>
     <string name="val_hora"> hora</string>
