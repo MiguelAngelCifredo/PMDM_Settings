@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="empty_array" />
+
+    <string-array name="ent_pantalla_apagar">
+        <item>1 min</item>
+        <item>2 min</item>
+        <item>10 min</item>
+        <item>@string/nunca</item>
+    </string-array>
+
+    <string-array name="val_pantalla_apagar">
+        <item>1</item>
+        <item>2</item>
+        <item>10</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="ent_relax_descansar">
+        <item>1 hora</item>
+        <item>2 horas</item>
+        <item>5 horas</item>
+        <item>8 horas</item>
+    </string-array>
+
+    <string-array name="val_relax_descansar">
+        <item>1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="ent_conn_limitarDatos">
+        <item>@string/val1_conn_limitarDatos</item>
+        <item>@string/val2_conn_limitarDatos</item>
+        <item>@string/val3_conn_limitarDatos</item>
+    </string-array>
+
+    <string-array name="val_conn_limitarDatos">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="ent_conn_descargarVideo">
+        <item>480p</item>
+        <item>1080p</item>
+        <item>HD</item>
+        <item>@string/original</item>
+    </string-array>
+
+    <string-array name="val_conn_descargarVideo">
+        <item>480</item>
+        <item>1080</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+
+</resources>

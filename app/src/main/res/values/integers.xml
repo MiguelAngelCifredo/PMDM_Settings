@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="def_pantalla_tamanioFuente">10</integer>
+    <integer name="max_pantalla_tamanioFuente">48</integer>
+    <integer name="min_pantalla_tamanioFuente">8</integer>
+</resources>

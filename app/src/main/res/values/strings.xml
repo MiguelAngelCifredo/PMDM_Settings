@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Settings</string>
+    <string name="tituloToobar">My App</string>
+
+    <string name="lb_relax_descansar">Frecuencia de recordatorio: %1$s</string>
+    <string name="lb_relax_nombreAlarma">Nombre de la alarma: %1$s</string>
+    <string name="lb_pantalla_apagar">Apagar la pantalla: %1$s</string>
+    <string name="lb_pantalla_tamanoFuente">Tamaño de la fuente: %1$d</string>
+    <string name="lb_pantalla_modoObscuro">Modo obscuro: %1$s</string>
+    <string name="lb_conn_limitarDatos">Limitar datos móviles: %1$s</string>
+    <string name="lb_conn_calidadDescargas">Calidad descargas: %1$s</string>
+    <string name="lb_conn_modoRestrictivo">Modo restrictivo: %1$s</string>
+    <string name="lb_conn_estadisticasUso">Habilitar estadísticas de uso: %1$s</string>
+
+    <string name="grp_relax">Relax:</string>
+    <string name="grp_pantalla">Pantalla:</string>
+    <string name="grp_conn">Conexiones:</string>
+
+    <string name="key_relax_descansar">key_relax_descansar</string>
+    <string name="tit_relax_descansar">Descansar</string>
+    <string name="sum_relax_descansar">Frecuencia de recordatorio</string>
+    <string name="dgt_relax_descansar">Recordar tomar un descanso</string>
+
+    <string name="key_relax_nombreAlarma">key_relax_nombreAlarma</string>
+    <string name="def_relax_nombreAlarma">Descanso</string>
+    <string name="tit_relax_nombreAlarma">Nombre alarma</string>
+    <string name="sum_relax_nombreAlarma">Nombre recordatorio alarma</string>
+
+    <string name="key_pantalla_apagar">key_pantalla_apagar</string>
+    <string name="tit_pantalla_apagar">Apagar pantalla</string>
+    <string name="sum_pantalla_apagar">Minutos para apagar la pantalla</string>
+    <string name="dgt_pantalla_apagar">Apagar pantalla</string>
+
+    <string name="key_pantalla_tamanioFuente">key_pantalla_tamanioFuente</string>
+    <string name="tit_pantalla_tamanioFuente">Tamaño fuente</string>
+    <string name="sum_pantalla_tamanioFuente">Establezca el tamaño de la fuente</string>
+
+    <string name="key_pantalla_modoObscuro">key_pantalla_modoObscuro</string>
+    <string name="tit_pantalla_modoObscuro">Establecer modo obscuro</string>
+
+    <string name="key_conn_limitarDatos">key_conn_limitarDatos</string>
+    <string name="tit_conn_limitarDatos">Limitar el uso de datos móviles</string>
+    <string name="sum_conn_limitarDatos">Envío de vídeo HD sobre Wi-Fi</string>
+    <string name="dgt_conn_limitarDatos">Uso datos móviles</string>
+
+    <string name="key_conn_descargarVideo">key_conn_descargarVideo</string>
+    <string name="tit_conn_descargarVideo">Descargar video</string>
+    <string name="sum_conn_descargarVideo">Especifica la calidad de las descargas</string>
+    <string name="dgt_conn_descargarVideo">Descargas de vídeo</string>
+
+    <string name="key_conn_modoRestrictivo">key_conn_modoRestrictivo</string>
+    <string name="tit_conn_modoRestrictivo">Modo restrictivo</string>
+    <string name="sum_conn_modoRestrictivo">El modo restrictivo puede ayudarte a ocultar vídeos con contenido potencialmente para adultos. el filtro con es 100% preciso, pero puede ayudar a evitar la mayoría.</string>
+
+    <string name="key_conn_estadisticasUso">key_conn_estadisticasUso</string>
+    <string name="tit_conn_estadisticasUso">Habilitar estadísticas de uso</string>
+
+    <string name="val_SI">Sí</string>
+    <string name="val_NO">No</string>
+    <string name="val_OFF">Desactivado</string>
+    <string name="val_ON">Activado</string>
+    <string name="val_NULL">No definido</string>
+
+    <string name="val1_conn_limitarDatos">Sólo con Wi-Fi</string>
+    <string name="val2_conn_limitarDatos">Sólo en red de datos</string>
+    <string name="val3_conn_limitarDatos">En cualquier red</string>
+
+    <string name="val_min"> min</string>
+    <string name="val_hora"> hora</string>
+    <string name="val_horas"> horas</string>
+
+    <string name="original">Original</string>
+    <string name="nunca">Nunca</string>
+
+    <string name="tit_confimDelete">Confirmar borrado</string>
+    <string name="msg_confimDelete">¿Estás seguro de que quieres eliminar todos los ajustes?\nEsta acción no se puede deshacer.</string>
+    <string name="pos_confimDelete">Borrar</string>
+    <string name="neg_confimDelete">Cancelar</string>
+    <string name="tst_confimDelete">Ajustes eliminados</string>
+</resources>

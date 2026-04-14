@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/myToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mnuPpal"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="@string/tituloToobar"
+        app:titleTextColor="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myToolBar">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/grp_relax" />
+
+        <TextView
+            android:id="@+id/lb_relax_descansar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/infoStart"
+            android:layout_marginTop="@dimen/infoTop"
+            android:text="@string/lb_relax_descansar" />
+
+        <TextView
+            android:id="@+id/lb_relax_nombreAlarma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/infoStart"
+            android:layout_marginTop="@dimen/infoTop"
+            android:text="@string/lb_relax_nombreAlarma" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:text="@string/grp_pantalla" />
+
+        <TextView
+            android:id="@+id/lb_pantalla_apagar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/infoStart"
+            android:layout_marginTop="@dimen/infoTop"
+            android:text="@string/lb_pantalla_apagar" />
+
+        <TextView
+            android:id="@+id/lb_pantalla_tamanoFuente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/infoStart"
+            android:layout_marginTop="@dimen/infoTop"
+            android:text="@string/lb_pantalla_tamanoFuente" />
+
+        <TextView
+            android:id="@+id/lb_pantalla_modoObscuro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/infoStart"
+            android:layout_marginTop="@dimen/infoTop"
+            android:text="@string/lb_pantalla_modoObscuro" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:text="@string/grp_conn" />
+
+        <TextView
+            android:id="@+id/lb_conn_limitarDatos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/infoStart"
+            android:layout_marginTop="@dimen/infoTop"
+            android:text="@string/lb_conn_limitarDatos" />
+
+        <TextView
+            android:id="@+id/lb_conn_calidadDescargas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/infoStart"
+            android:layout_marginTop="@dimen/infoTop"
+            android:text="@string/lb_conn_calidadDescargas" />
+
+        <TextView
+            android:id="@+id/lb_conn_modoRestrictivo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/infoStart"
+            android:layout_marginTop="@dimen/infoTop"
+            android:text="@string/lb_conn_modoRestrictivo" />
+
+        <TextView
+            android:id="@+id/lb_conn_estadisticasUso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/infoStart"
+            android:layout_marginTop="@dimen/infoTop"
+            android:text="@string/lb_conn_estadisticasUso" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
